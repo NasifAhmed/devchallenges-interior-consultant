@@ -20,6 +20,7 @@ li {
 
 a {
     text-decoration: none;
+    color: inherit;
 }
 
 body {
@@ -29,6 +30,10 @@ body {
 
 nav {
     display: flex;
+}
+
+header {
+    margin-bottom: 14vh;
 }
 
 .logo {
@@ -77,4 +82,29 @@ main {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+}
+
+.main-text p {
+    max-width: 410px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 40px;
+    margin-bottom: 48px;
+}
+
+.main-text a {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.main-banner {
+    width: 57%;
 }
