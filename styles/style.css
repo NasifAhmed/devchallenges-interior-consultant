@@ -2,3 +2,79 @@
     margin: 0;
     padding: 0;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    color: white;
+    background-color: #181719;
+}
+
+nav {
+    display: flex;
+}
+
+.logo {
+    flex-grow: 2;
+    padding: 4vh 3vw;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    padding: 4vh 3vw;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.logo button {
+    background-color: #181719;
+    border: 1px solid #FFF;
+    width: 102px;
+    height: 32px;
+    color: #FFF;
+    font-family: Crimson Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main-text h1 {
+    color: #FFF;
+    font-family: Lora;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
